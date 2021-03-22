@@ -1,0 +1,17 @@
+{
+  "AUTHENTICATION": {
+    "contextPath": "",
+    "serviceName": "",
+    "version": "",
+    "endpoints": {
+      "LOGIN": {
+        "method": "POST",
+        "path": "/login"
+      },
+      "LOGOUT": {
+        "method": "GET",
+        "path": "/logout"
+      }
+    }
+  }
+}

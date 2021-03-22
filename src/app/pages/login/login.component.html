@@ -1,1 +1,30 @@
-<p>login works!</p>
+<section
+  class="login-form">
+  <h2>Login form</h2>
+  <form
+    fxLayout="column"
+    [formGroup]="form"
+    (ngSubmit)="onSubmit()">
+    <mat-form-field type="text">
+      <mat-label>Username:</mat-label>
+      <input
+        matInput
+        formControlName="username"
+        placeholder="Enter your username">
+    </mat-form-field>
+    <mat-form-field
+      type="password">
+      <mat-label>Password:</mat-label>
+      <input
+        matInput
+        formControlName="password"
+        placeholder="Enter your password">
+    </mat-form-field>
+    <button
+      mat-button
+      color="primary"
+      type="submit">
+      Login
+    </button>
+  </form>
+</section>

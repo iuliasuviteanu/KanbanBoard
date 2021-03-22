@@ -18,6 +18,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BoardComponent } from './components/board/board.component';
 import { BoardListComponent } from './components/board-list/board-list.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,8 @@ import { BoardListComponent } from './components/board-list/board-list.component
     BoardListComponent
   ],
   imports: [
+    FormsModule,
+    ReactiveFormsModule,
     BrowserModule,
     BrowserAnimationsModule,
     FlexLayoutModule,

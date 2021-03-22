@@ -43,6 +43,7 @@ import {MatTooltipModule} from '@angular/material/tooltip';
 import {MatTreeModule} from '@angular/material/tree';
 import {OverlayModule} from '@angular/cdk/overlay';
 import { CommonModule } from '@angular/common';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 const modules = [
         A11yModule,
@@ -86,9 +87,12 @@ const modules = [
         MatToolbarModule,
         MatTooltipModule,
         MatTreeModule,
+        MatFormFieldModule,
         OverlayModule,
         PortalModule,
         ScrollingModule,
+        MatInputModule,
+        MatButtonModule
       ];
 
 @NgModule({
